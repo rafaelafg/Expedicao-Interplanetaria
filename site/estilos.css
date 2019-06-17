@@ -1,0 +1,49 @@
+body{
+  background-image: url(sistema-solar2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+html, body {
+    height: 95%;
+}
+h1{
+  color: white;
+  float: left;
+}
+.planetas {
+    position: relative;
+    left: 170px;
+    display: flex;
+    height: 90%;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.brilho {
+  opacity: 0;
+  width: calc(100% - 160px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: all 200ms ease;
+
+}
+a{
+  position: relative;
+}
+
+a::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    background-image: url(spark.gif);
+    background-size: contain;
+}
+a:hover::before {
+  opacity: 1;
+}
