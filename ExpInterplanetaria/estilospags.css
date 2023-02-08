@@ -1,0 +1,138 @@
+body{
+  background-image: url(imgs/base_pags.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 16px;
+  padding-bottom: 0px;
+}
+p {
+  color: white;
+  font-family: arial;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+header {
+  background-color: #2e334e;
+}
+
+img {
+  float: right;
+  width: 20%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+header ul{
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+header li {
+  list-style: none;
+  display: inline;
+  margin: 0 9.8em;
+  font-family: 'Audiowide', cursive;
+}
+
+header a {
+  text-decoration: none;
+  color: #2e334e ;
+}
+
+header a:hover {
+  color: red;
+}
+
+iframe {
+  margin-left: 30%;
+  margin-top: 7%;
+}
+
+.sobre a {
+  display: inline;
+  color: red;
+}
+
+h2 {
+  color: white;
+  font-family: 'Audiowide', cursive;
+  margin-left: 5%;
+}
+
+header p {
+  color: white;
+  padding-bottom: 1%;
+  font-weight: bold;
+}
+
+.sobre {
+  width: 40%;
+}
+
+.sobre-imgs img{
+  width: 10%;
+  border-radius: 30em;
+  float: right;
+  margin-left: 3%;
+  margin-right: 5%;
+}
+
+footer a {
+  border: solid white 1px;
+  padding: 1%;
+  text-decoration: none;
+  font-family: "Audiowide", cursive;
+  color: white;
+  font-size: 100%;
+  position: fixed;
+  left: 1%;
+  bottom: 5%;
+  border-radius: 2em;
+  background-color: #2e334e;
+}
+
+label{
+  color: white;
+  font-family: arial;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+input{
+  width: 7em;
+  text-align: center;
+  border-radius: 5em;
+}
+
+.convercao h2{
+  color: white;
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+}
+
+.convercao {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  border-radius: 5em;
+}
+
+.planeta-imgs img{
+  margin-left: 2%;
+  margin-right: 5%;
+  width: 25%;
+  border: white 2px solid;
+
+}

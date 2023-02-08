@@ -1,0 +1,56 @@
+body{
+  background-image: url(imgs/fundoo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 70%;
+}
+
+h1{
+  color: white;
+  text-align:center;
+  font-family: 'Audiowide', cursive;
+  font-size: 500%;
+}
+main {
+    position: relative;
+    left: 13%;
+    display: flex;
+    height: 70%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.brilho {
+  opacity: 0;
+  width: calc(100% - 160px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: all 200ms ease;
+}
+
+main a{
+  position: relative;
+}
+
+main a::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    background-image: url(imgs/spark.gif);
+    background-size: contain;
+}
+
+main a:hover::before {
+  opacity: 1;
+}
+
+footer img {
+  width: 9.8%;
+  margin-left: 54%;
+}
